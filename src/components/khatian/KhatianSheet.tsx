@@ -246,7 +246,7 @@ export function KhatianSheet({ data }: KhatianSheetProps) {
                       <div className="font-bold text-[13px] mb-1">প্রস্তাবিত খতিয়ান</div>
                       {/* Signature graphic SVG placeholder */}
                       <div className="h-7 flex items-center justify-center">
-                        <span className="font-serif italic text-emerald-800 text-sm font-semibold opacity-90">
+                        <span className="font-serif text-emerald-800 text-sm font-semibold opacity-90">
                           {data.preparedOfficerName}
                         </span>
                       </div>
@@ -279,7 +279,7 @@ export function KhatianSheet({ data }: KhatianSheetProps) {
                     <div className="flex flex-col items-center">
                       <div className="font-bold text-[13px] mb-1">অনুমোদিত খতিয়ান</div>
                       <div className="h-7 flex items-center justify-center">
-                        <span className="font-serif italic text-emerald-800 text-sm font-semibold opacity-90">
+                        <span className="font-serif text-emerald-800 text-sm font-semibold opacity-90">
                           {data.approvedOfficerName}
                         </span>
                       </div>
