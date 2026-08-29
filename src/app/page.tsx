@@ -25,15 +25,15 @@ export default function HomePage() {
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 font-siliguri text-slate-900 dark:text-slate-100 transition-colors">
       
       {/* Official Top Bar */}
-      <header className="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 py-3 px-4 sm:px-8 shadow-2xs">
+      <header className="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 pb-2 px-4 sm:px-8 shadow-2xs">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/" className="p-1.5 rounded-lg text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors" title="হোম">
-              <Image src="/assets/logo/10001.png" alt="Home" width={22} height={22} className="object-contain" />
+              <Image src="/assets/logo/10001.png" alt="Home" width={32} height={32} className="object-contain" />
             </Link>
 
             <div className="flex items-center gap-3">
-              <Image src="/assets/logo/10002.jpg" alt="Logo" width={180} height={55} className="object-contain h-12 w-auto" />
+              <Image src="/assets/logo/10002.jpg" alt="Logo" width={200} height={65} className="object-contain h-16 w-auto" />
             </div>
           </div>
 
