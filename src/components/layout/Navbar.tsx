@@ -116,7 +116,7 @@ export function Navbar({
               {onReset && (
                 <button
                   onClick={onReset}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-800 text-xs font-bold hover:bg-amber-100 transition-colors"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-800 text-xs font-bold hover:bg-amber-100 transition-colors"
                   title="ডিফল্ট ডাটা রিস্টোর করুন"
                 >
                   <RotateCcw className="w-3.5 h-3.5" />
