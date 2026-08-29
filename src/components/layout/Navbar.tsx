@@ -69,7 +69,7 @@ export function Navbar({
               {onToggleDrawer && (
                 <button
                   onClick={onToggleDrawer}
-                  className={`inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all border ${
+                  className={`inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all border ${
                     isDrawerOpen
                       ? "bg-emerald-600 text-white border-emerald-600 shadow-sm"
                       : "bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 border-slate-300 dark:border-slate-700"
