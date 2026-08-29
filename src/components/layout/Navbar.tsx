@@ -126,7 +126,7 @@ export function Navbar({
 
               <button
                 onClick={handlePrint}
-                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold text-xs shadow-md shadow-emerald-600/20 transition-all cursor-pointer"
+                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold text-xs shadow-md shadow-emerald-600/20 transition-all cursor-pointer"
               >
                 <Printer className="w-4 h-4" />
                 <span>প্রিন্ট খতিয়ান (A4)</span>
